@@ -9,7 +9,7 @@ import Hero from './hero.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className="text-2xl bg-black text-white p-7">
+    <div className="text-2xl bg-black text-white p-7 lg:p-10 lg:text-5xl">
     <Navigation/>
     <Hero/>
     <Value/>
