@@ -1,21 +1,21 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faFacebookF, faYoutube, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter, faFacebookF, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-500 text-center mt-4 px-2 lg:mt-16">
+    <footer className=" text-center mt-4 px-2 lg:mt-16">
     <div className='flex flex-col items-start gap-y-4'>
     <p>Connect with us</p>
     <div className="mb-5 ">
     <a href="https://twitter.com/yourcompany" className="text-black hover:text-blue-600 mx-3">
-    <FontAwesomeIcon className='lg:w-1/5' icon={faYoutube} size="x"/>
+    <FontAwesomeIcon className='text-white text-3xl lg:w-1/5' icon={faTwitter} size="x"/>
     </a>
     <a href="https://www.facebook.com/yourcompany" className="text-black hover:text-blue-800 mx-3">
-    <FontAwesomeIcon className='lg:w-1/15' icon={faFacebookF} size="x"/>
+    <FontAwesomeIcon className='text-white text-3xl lg:w-1/15' icon={faFacebookF} size="x"/>
     </a>
     <a href="https://www.youtube.com/yourcompany" className="text-black hover:text-red-600 mx-3">
-    <FontAwesomeIcon className='lg:w-1/5' icon={faInstagram} size="x" />
+    <FontAwesomeIcon className='lg:w-1/5 text-white text-3xl' icon={faYoutube} size="x" />
     </a>
     </div>
     </div>

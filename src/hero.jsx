@@ -12,7 +12,7 @@ export default function Ero() {
         <source src="https://media.stage.in/adsImages_NC/bbb_hr_teaser.mp4" type="video/mp4" />
       </video>
       <button
-        className='bg-green-500 hover:bg-green-700 font-bold py-2 px-4 rounded-md w-4/5 lg:w-3/5 lg:px-7 lg:py-7'
+        className='bg-green-500 hover:bg-green-700 font-bold py-2 px-4 rounded-md w-full lg:w-3/5 lg:px-7 lg:py-7'
         onClick={redirectToPayments}
       >
         ट्रायल शुरू करें
